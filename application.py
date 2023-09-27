@@ -108,7 +108,7 @@ def main():
     st.write(css, unsafe_allow_html=True)
     
     # Opening the image
-    image = Image.open(r"docs\logoof3d.png")
+    image = Image.open(r"logoof3d.png")
 
     # Displaying the image in the side bar of the Streamlit app
     st.sidebar.image(image)
